@@ -2,14 +2,15 @@
 body{background:#f7f7f7; color:#4c4c4c; font-size:14px; line-height:1.5; font-size-adjust:none; -webkit-text-size-adjust:none; min-width:300px;}
 body,input,button,select,optgroup,option,textarea,pre{font-family:Arial,Roboto,"Droid Sans","Hiragino Sans GB","Microsoft YaHei","Simsun",STXihei,"sans-serif";}
 
-#top{width: 100%;height: 40%; overflow: hidden;}
-.left{float: left;text-align: center; width: 50%; align-items: center; justify-content: center;line-height: 2.5rem;padding-top: 5%;}
-.left p{line-height: 2.5rem;font-size: 2rem;}
-.left p.butong{font-size: 2.5rem;color: #ea6b0d; padding-top: 8px;}
-.left p.gz{font-size: 1.5rem; padding-top: 8px;color: #676767;}
-.left p.hs{font-size: 1.0rem; color: #676767;}
+#top{width: 100%; overflow: hidden;}
+.left{float: left;text-align: center; width: 50%; align-items: center; justify-content: center;padding-top: 3%;}
+.left p{font-size: 1.4rem;}
+.left p.butong{font-size: 1.6rem;color: #ea6b0d; padding-top:2%;line-height: 1.5rem;}
+.left p.gz{font-size: 1rem; padding-top:2%;color: #676767;line-height: 2rem;}
+.left p.hs{font-size: 0.3rem; color: #676767;}
+span{display: block; margin-top: 5%;}
 .h1{margin:0;}
-.h1 img{width: 40%;height:40%;float: right;padding: 20px;}
+.h1 img{width: 40%;height:40%;float: right;}
 .h2{width: 100%;height: 700px;background-color: #e8e8e8;margin:0;}
 .h2 li{padding:10px;list-style:none;border: 1px solid #bcbcbc; /* 设置边框 */
   margin-bottom: 5px; /* 设置元素之间的间隔 */
